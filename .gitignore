@@ -1,0 +1,23 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gradle/
+.idea/.gitignore
+.idea/compiler.xml
+.idea/gradle.xml
+.idea/inspectionProfiles/
+.idea/jarRepositories.xml
+.idea/misc.xml
+.idea/modules/
+.idea/vcs.xml
+chapter_01-1/
+gradle/
+gradlew
+gradlew.bat
+settings.gradle
+src/
+compiler.xml
+gradle.xml
+inspectionProfiles/
+jarRepositories.xml
+misc.xml
+modules/
+vcs.xml
