@@ -44,3 +44,12 @@ subprojects {
 
 project(":chapter_01-1") {
 }
+
+project(":chapter_01-2") {
+}
+
+project(":chapter_01-3") {
+}
+
+project(":chapter_01-4") {
+}
