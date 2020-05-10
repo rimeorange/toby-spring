@@ -21,3 +21,4 @@ jarRepositories.xml
 misc.xml
 modules/
 vcs.xml
+*.class

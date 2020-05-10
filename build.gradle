@@ -30,6 +30,8 @@ subprojects {
     dependencies {
         testCompile('org.springframework.boot:spring-boot-starter-test')
         compile 'org.springframework.boot:spring-boot-starter-web'
+        compile 'org.springframework:spring-jdbc:5.1.9.RELEASE'
+        compile 'org.springframework:spring-test:5.1.9.RELEASE'
         compile 'com.h2database:h2'
         /*compile('org.springframework.boot:spring-boot-starter-web')
         compile('org.projectlombok:lombok')
@@ -52,4 +54,10 @@ project(":chapter_01-3") {
 }
 
 project(":chapter_01-4") {
+}
+
+project(":chapter_01-5") {
+}
+
+project(":chapter_01-8") {
 }
