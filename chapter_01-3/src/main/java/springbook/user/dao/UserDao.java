@@ -51,4 +51,5 @@ public abstract class UserDao {
 
     //구현 코드는 제거되고 추상 메소드로 바뀌었다. 메소드의 구현은 서브클래스가 담당한다.
     public abstract Connection getConnection() throws ClassNotFoundException, SQLException;
+
 }

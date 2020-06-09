@@ -13,7 +13,6 @@ gradle/
 gradlew
 gradlew.bat
 settings.gradle
-src/
 compiler.xml
 gradle.xml
 inspectionProfiles/
@@ -21,4 +20,8 @@ jarRepositories.xml
 misc.xml
 modules/
 vcs.xml
-*.class
+build/
+/chapter_01-2/build/
+/chapter_01-4/build/
+/chapter_02-2/build/
+/chapter_02-2/build/

@@ -18,7 +18,6 @@ public class UserDaoTest {
         UserDao dao = context.getBean("userDao", UserDao.class);
         User user1 = new User("rime1", "심원보", "spring01");
         User user2 = new User("rime2", "심원보", "spring02");
-
         dao.deleteAll();
         assertThat(dao.getCount(), is(0));
 

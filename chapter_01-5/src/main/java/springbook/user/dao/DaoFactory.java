@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class DaoFactory {
 
-    //오브젝트 생성을 담당하는 IoC용 메소드라는 표
+    //오브젝트 생성을 담당하는 IoC용 메소드라는 표현
     @Bean
     public UserDao userDao() {
         UserDao userDao = new UserDao(connectionMaker());
