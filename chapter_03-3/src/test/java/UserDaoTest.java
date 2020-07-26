@@ -25,6 +25,7 @@ public class UserDaoTest {
     private User user1;
     private User user2;
     private User user3;
+
     @Before
     public void setUp() {
         this.dao = this.context.getBean("userDao", UserDao.class);
