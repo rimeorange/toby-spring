@@ -7,11 +7,12 @@ import springbook.user.domain.User;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
+
 import java.sql.SQLException;
 
 public class UserDaoTest {
     @Test
-    public void addAndGet() throws SQLException{
+    public void addAndGet() throws SQLException {
         ApplicationContext context =
                 new GenericXmlApplicationContext("applicationContext.xml");
 

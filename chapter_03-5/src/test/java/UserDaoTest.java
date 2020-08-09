@@ -36,7 +36,7 @@ public class UserDaoTest {
 
 
     @Test
-    public void addAndGet() throws SQLException{
+    public void addAndGet() throws SQLException {
 
         dao.deleteAll();
         assertThat(dao.getCount(), is(0));

@@ -46,7 +46,7 @@ public class UserDao {
     private Connection getConnection() throws ClassNotFoundException, SQLException {
         Class.forName("org.h2.driver");
         Connection c = DriverManager.getConnection(
-                "jdbc:h2:tcp://localhost/~/test", "sa","");
+                "jdbc:h2:tcp://localhost/~/test", "sa", "");
         return c;
     }
 }

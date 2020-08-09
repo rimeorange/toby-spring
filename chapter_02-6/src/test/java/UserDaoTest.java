@@ -22,7 +22,7 @@ public class UserDaoTest {
     }
 
     @Test
-    public void addAndGet() throws SQLException{
+    public void addAndGet() throws SQLException {
 
         User user1 = new User("rime1", "심원보", "spring01");
         User user2 = new User("rime2", "심원보", "spring02");

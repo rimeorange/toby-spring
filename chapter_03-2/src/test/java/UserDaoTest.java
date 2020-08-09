@@ -25,6 +25,7 @@ public class UserDaoTest {
     private User user1;
     private User user2;
     private User user3;
+
     @Before
     public void setUp() {
         this.dao = this.context.getBean("userDao", UserDao.class);
@@ -35,7 +36,7 @@ public class UserDaoTest {
 
 
     @Test
-    public void addAndGet() throws SQLException{
+    public void addAndGet() throws SQLException {
 
         dao.deleteAll();
         assertThat(dao.getCount(), is(0));

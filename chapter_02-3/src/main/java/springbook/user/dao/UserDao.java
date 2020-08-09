@@ -32,7 +32,7 @@ public class UserDao {
 
     }
 
-    public User get(String id) throws  SQLException {
+    public User get(String id) throws SQLException {
 
         Connection c = this.dataSource.getConnection();
 

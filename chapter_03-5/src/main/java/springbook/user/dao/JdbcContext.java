@@ -25,7 +25,7 @@ public class JdbcContext {
         } catch (SQLException e) {
             throw e;
         } finally {
-            if(ps != null) {
+            if (ps != null) {
                 try {
                     ps.close();
                 } catch (SQLException e) {
@@ -33,7 +33,7 @@ public class JdbcContext {
                 }
             }
 
-            if(c != null) {
+            if (c != null) {
                 try {
                     c.close();
                 } catch (SQLException e) {

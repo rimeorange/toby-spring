@@ -33,7 +33,7 @@ public class UserDao {
 
     }
 
-    public User get(String id) throws  SQLException {
+    public User get(String id) throws SQLException {
 
         Connection c = this.dataSource.getConnection();
 
@@ -45,7 +45,7 @@ public class UserDao {
         ResultSet rs = ps.executeQuery();
 
         User user = null;
-        if(rs.next()) {
+        if (rs.next()) {
             user = new User();
             user.setId(rs.getString("id"));
             user.setName(rs.getString("name"));
@@ -56,7 +56,7 @@ public class UserDao {
         ps.close();
         c.close();
 
-        if(user == null)
+        if (user == null)
             throw new EmptyResultDataAccessException(1);
 
         return user;

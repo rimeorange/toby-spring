@@ -80,7 +80,7 @@ public class UserDao {
                 new StatementStrategy() {
                     @Override
                     public PreparedStatement makePreparedStatement(Connection c) throws SQLException {
-                        return  c.prepareStatement("delete from users");
+                        return c.prepareStatement("delete from users");
                     }
                 }
         );

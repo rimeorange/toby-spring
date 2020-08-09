@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserDaoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-09T10:13:31" hostname="Wonui-MacBook-Pro.local" time="0.386">
-  <properties/>
-  <testcase name="addAndGet" classname="UserDaoTest" time="0.386"/>
-  <system-out><![CDATA[19:13:31.674 [Test worker] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [applicationContext.xml]
+<testsuite name="UserDaoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-09T10:13:31"
+           hostname="Wonui-MacBook-Pro.local" time="0.386">
+    <properties/>
+    <testcase name="addAndGet" classname="UserDaoTest" time="0.386"/>
+    <system-out><![CDATA[19:13:31.674 [Test worker] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 2 bean definitions from class path resource [applicationContext.xml]
 19:13:31.678 [Test worker] DEBUG org.springframework.context.support.GenericXmlApplicationContext - Refreshing org.springframework.context.support.GenericXmlApplicationContext@142c05b5
 19:13:31.704 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
 19:13:31.755 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDao'
 19:13:31.765 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
 19:13:31.832 [Test worker] DEBUG org.springframework.jdbc.datasource.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:tcp://localhost/~/test]
 ]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+    <system-err><![CDATA[]]></system-err>
 </testsuite>

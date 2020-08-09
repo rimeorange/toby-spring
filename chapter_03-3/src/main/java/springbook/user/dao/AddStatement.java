@@ -6,7 +6,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class AddStatement implements StatementStrategy{
+public class AddStatement implements StatementStrategy {
     User user;
 
     public AddStatement(User user) {
